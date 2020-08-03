@@ -4,7 +4,41 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+/** mine scc */
+.text-brand>span:hover{
+color: #EC1D26;
+  text-decoration: none;
+}
+/*
+.text-brand>span {
+	background-color: black;
+}
+*/
+.bg-dark {
+	background-color: black !important;
+	color: black;
+}
+.color-a>span{
+	color: black;
+	
+}
+.w-body-a>p{
+	color: black;
+}
 
+.map-container-5{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-5 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -31,9 +65,12 @@ a:hover {
   color: #EC1D26;
   text-decoration: none;
 }
-
+.text-brand>span:hover{
+color: #EC1D26;
+  text-decoration: none;
+}
 .link-two {
-  color: #000000;
+  color: #FFFFFF;
   transition: all .5s ease;
 }
 
@@ -105,7 +142,7 @@ a:hover {
 
 .text-brand {
 /*  color: #000000;*/
-	color: #FFFFFF !Important; 
+	color: #EC1D26; 
   font-size: 2rem;
   font-weight: 600;
 }
@@ -122,7 +159,7 @@ a:hover {
 
 .color-b {
 /*  color: #EC1D26;*/
-	color: #EC1D26;
+	color: #FFFFFF;
 }
 
 .color-d {
@@ -130,7 +167,7 @@ a:hover {
 }
 
 .color-text-a {
-  color: #555555;
+  color:beige;
 }
 
 .no-margin {
@@ -208,7 +245,7 @@ a:hover {
   color: #000000;
 }
 
-.pagination-a .pagination .page-link:hover, .pagination-a .pagination .page-link:active, .pagination-a .pagination .page-link:focus {
+.pagination-a .pagination .page-link:color-b, .pagination-a .pagination .page-link:active, .pagination-a .pagination .page-link:focus {
   background-color: #EC1D26;
 }
 
@@ -690,14 +727,14 @@ a:hover {
 }
 
 .navbar-default.navbar-trans .nav-link:hover {
-  color: #000000;
+  color: #EC1D26;
 }
 
 .navbar-default.navbar-trans .show > .nav-link,
 .navbar-default.navbar-trans .active > .nav-link,
 .navbar-default.navbar-trans .nav-link.show,
 .navbar-default.navbar-trans .nav-link.active {
-  color: #000000;
+  color: #EC1D26;
 }
 
 .navbar-default.navbar-reduce {
@@ -716,18 +753,18 @@ a:hover {
 }
 
 .navbar-default.navbar-reduce .nav-link:hover {
-  color: #000000;
+  color: #EC1D26;
 }
 
 .navbar-default.navbar-reduce .show > .nav-link,
 .navbar-default.navbar-reduce .active > .nav-link,
 .navbar-default.navbar-reduce .nav-link.show,
 .navbar-default.navbar-reduce .nav-link.active {
-  color: #000000;
+  color: #EC1D26;
 }
 
 .navbar-default.navbar-reduce .navbar-brand {
-  color: #000000;
+  color: #EC1D26;
 }
 
 .navbar-default .dropdown .dropdown-menu {
@@ -2147,6 +2184,7 @@ a:hover {
 
 .section-footer .widget-a .w-title-a {
   margin-bottom: 1rem;
+	margin-right: 2rem;
 }
 
 footer {
