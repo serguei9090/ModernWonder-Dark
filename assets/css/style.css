@@ -43,6 +43,9 @@ position:absolute;
 	height: 5rem;
 	
 }
+.title-2{
+	color: #ffffff
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -74,7 +77,7 @@ color: #EC1D26;
   text-decoration: none;
 }
 .link-two {
-  color: #FFFFFF;
+  color: #000000;
   transition: all .5s ease;
 }
 
@@ -105,7 +108,7 @@ color: #EC1D26;
 }
 
 .link-a {
-  color: #ffffff;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
@@ -122,7 +125,7 @@ color: #EC1D26;
 }
 
 .link-a:hover {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -171,7 +174,7 @@ color: #EC1D26;
 }
 
 .color-text-a {
-  color:beige;
+  color:Black;
 }
 
 .no-margin {
@@ -500,7 +503,7 @@ color: #EC1D26;
   padding: .7rem 1.5rem !important;
   display: inline-block;
   transition: all 0.6s ease-in-out;
-  color: #ffffff;
+  color: #000000;
   background-color: #EC1D26;
   opacity: .9;
 }
@@ -508,7 +511,7 @@ color: #EC1D26;
 .nav-arrow-b .owl-arrow .owl-nav .owl-prev.disabled,
 .nav-arrow-b .owl-arrow .owl-nav .owl-next.disabled {
   transition: all 0.6s ease-in-out;
-  color: #ffffff;
+  color: #000000;
 }
 
 .nav-arrow-b .owl-arrow .owl-nav .owl-prev:hover,
@@ -613,7 +616,7 @@ color: #EC1D26;
 
 .btn.btn-a {
   background-color: #000000;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .btn.btn-a:hover {
@@ -628,18 +631,18 @@ color: #EC1D26;
 
 .btn.btn-b:hover {
   background-color: #000000;
-  color: #ffffff;
+  color: #000000;
 }
 
 .btn.btn-b-n {
   background-color: #EC1D26;
-  color: #ffffff;
+  color: #000000;
   border-radius: 0;
 }
 
 .btn.btn-b-n:hover {
   background-color: #26a356;
-  color: #ffffff;
+  color: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -647,7 +650,7 @@ color: #EC1D26;
 --------------------------------------------------------------*/
 .navbar-default {
   transition: all .5s ease-in-out;
-  background-color: #ffffff;
+  background-color: #000000;
   padding-top: 28px;
   padding-bottom: 28px;
   -webkit-backface-visibility: hidden;
@@ -804,13 +807,13 @@ color: #EC1D26;
 }
 
 .navbar-default .dropdown .dropdown-menu .dropdown-item:hover {
-  background-color: #ffffff;
+  background-color: #000000;
   color: #EC1D26;
   transition: all 500ms ease;
 }
 
 .navbar-default .dropdown .dropdown-menu .dropdown-item.active {
-  background-color: #ffffff;
+  background-color: #000000;
   color: #EC1D26;
 }
 
@@ -880,7 +883,7 @@ color: #EC1D26;
   right: 0;
   width: 100%;
   z-index: 1040;
-  background-color: #ffffff;
+  background-color: #000000;
   transform: translateX(100%);
   transition: all 0.6s ease;
 }
@@ -994,7 +997,7 @@ color: #EC1D26;
 .intro {
   height: 100vh;
   position: relative;
-  color: #ffffff;
+  color: #000000;
 }
 
 .intro .owl-theme .owl-dots {
@@ -1010,8 +1013,8 @@ color: #EC1D26;
 }
 
 .intro .owl-theme .owl-dots .owl-dot span {
-  background: #ffffff;
-  border: 0px solid #ffffff;
+  background: #000000;
+  border: 0px solid #000000;
 }
 
 .intro .owl-theme .owl-dots .owl-dot:hover span {
@@ -1050,7 +1053,7 @@ color: #EC1D26;
 }
 
 .intro .intro-body .price-a {
-  color: #ffffff;
+  color: #000000;
   padding: 1rem 1.5rem;
   border: 2px solid #EC1D26;
   border-radius: 50px;
@@ -1061,7 +1064,7 @@ color: #EC1D26;
 .intro .spacial {
   -webkit-animation-delay: .2s;
   animation-delay: .2s;
-  color: #ffffff;
+  color: #000000;
 }
 
 .intro .intro-title-top {
@@ -1069,7 +1072,7 @@ color: #EC1D26;
   animation-delay: .6s;
   margin-bottom: 1rem;
   font-size: .9rem;
-  color: #ffffff;
+  color: #000000;
   letter-spacing: .05em;
 }
 
@@ -1089,7 +1092,7 @@ color: #EC1D26;
 
 .intro .intro-title {
   transition-duration: 9s !important;
-  color: #ffffff;
+  color: #FFFFFF;
   font-weight: 700;
   font-size: 2.8rem;
   text-transform: uppercase;
@@ -1339,7 +1342,7 @@ color: #EC1D26;
 }
 
 .card-header-a .card-title-a {
-  color: #ffffff;
+  color: #000000;
   margin-bottom: 0;
   padding-bottom: .7rem;
 }
@@ -1357,7 +1360,7 @@ color: #EC1D26;
 }
 
 .card-header-a .card-title-a a {
-  color: #ffffff;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
@@ -1372,7 +1375,7 @@ color: #EC1D26;
 }
 
 .price-a {
-  color: #ffffff;
+  color: #000000;
   padding: .6rem .8rem;
   border: 2px solid #EC1D26;
   border-radius: 50px;
@@ -1411,7 +1414,7 @@ color: #EC1D26;
 }
 
 .card-info li span {
-  color: #ffffff;
+  color: #000000;
   font-size: .9rem;
 }
 
@@ -1504,7 +1507,7 @@ color: #EC1D26;
 ======================================*/
 .card-header-b {
   padding: 1rem;
-  color: #ffffff;
+  color: #000000;
   position: absolute;
   bottom: 20px;
   z-index: 2;
@@ -1526,7 +1529,7 @@ color: #EC1D26;
   font-size: .9rem;
   background-color: #EC1D26;
   padding: .3rem .7rem;
-  color: #313131;
+  color: #FFFFFF;
   letter-spacing: 0.030em;
   border-radius: 50px;
   text-decoration: none;
@@ -1551,7 +1554,7 @@ color: #EC1D26;
 }
 
 .card-header-b .title-2 a {
-  color: #ffffff;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
@@ -1984,7 +1987,7 @@ color: #EC1D26;
 .testimonial-ico span {
   font-size: 1.8rem;
   background-color: #EC1D26;
-  color: #ffffff;
+  color: #FFFFFF;
   padding: .4rem 1rem;
   border-radius: 50px;
 }
