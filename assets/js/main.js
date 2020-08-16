@@ -1,3 +1,31 @@
+//My modal config
+//Modal-1
+$(document).ready(function(){
+  $("#myBtn_m_1").click(function(){
+    $("#myModal").modal();
+  });
+	  $("#myBtn_m_2").click(function(){
+    $("#myModal").modal();
+  });
+	  $("#myBtn_m_3").click(function(){
+    $("#myModal").modal();
+  });
+});
+//Modal-2
+$(document).ready(function(){
+  $("#myBtn2_m_1").click(function(){
+    $("#myModal_2").modal();
+  });
+	  $("#myBtn2_m_2").click(function(){
+    $("#myModal_2").modal();
+  });
+	  $("#myBtn2_m_3").click(function(){
+    $("#myModal_2").modal();
+  });
+});
+
+
+//My modal config end
 /**
 * Template Name: EstateAgency - v2.1.0
 * Template URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
