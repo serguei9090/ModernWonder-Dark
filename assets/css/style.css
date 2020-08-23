@@ -123,9 +123,9 @@ position:absolute;
 
 /*Messenger Chat*/
 .fb_dialog_content > iframe {
-	margin: 0px 0px;
-	right: 8px;
-	bottom: 70px;
+	margin: 0px 0px !important;
+	right: 8px!important;
+	bottom: 70px!important;
 }
 /*--------------------------------------------------------------
 # General
