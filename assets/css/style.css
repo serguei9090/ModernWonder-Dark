@@ -119,6 +119,14 @@ position:absolute;
 	padding: inherit;
 }
 /*finish card scc*/
+
+
+/*Messenger Chat*/
+.fb_dialog_content > iframe {
+	margin: 0px 0px;
+	right: 8px;
+	bottom: 70px;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
