@@ -24,7 +24,23 @@ $(document).ready(function(){
   });
 });
 
-
+//My button menu
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      $('.container_button').fadeIn('slow');
+    } else {
+      $('.container_button').fadeOut('slow');
+    }
+  });
+//  $('.back-to-top').click(function() {
+//    $('html, body').animate({
+//      scrollTop: 0
+//    }, 1500, 'easeInOutExpo');
+//    return false;
+//  });
+//
+//  var nav = $('nav');
+//  var navHeight = nav.outerHeight();
 //My modal config end
 /**
 * Template Name: EstateAgency - v2.1.0

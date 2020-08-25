@@ -127,6 +127,10 @@ position:absolute;
 	right: 8px!important;
 	bottom: 70px!important;
 }
+.callbell-container>.callbell-container_logo  {
+	right: 8px!important;
+	bottom: 70px!important;
+}
 
 /*Whatsappp Button*/
 .whatsapp {
@@ -146,6 +150,54 @@ position:absolute;
 .whatsapp-icon {
   margin-top:13px;
 }
+/*Button Flotante*/
+#btn-mas {
+	display: none;
+	
+}
+.container_button{
+	position: fixed;
+	bottom: 60px;
+	right: 10px;
+}
+.redes a, .icon-mas2 {
+	display: block;
+	text-decoration: none;
+	background: #EC1D26;
+	color: #FFFFFF;
+	width: 55px;
+	height: 55px;
+	line-height: 55px;
+	text-align: center;
+	border-radius: 50%;
+	box-shadow: 0px 1px 10px
+		rgba(0,0,0,0.4);
+	transition: all 500ms ease;
+}
+.redes a:hover{
+	background: #FFF;
+	color: #EC1D26;
+	
+}
+.redes a{
+	margin-bottom: -15px;
+	opacity: 0;
+	visibility: hidden;
+}
+#btn-mas:checked~ .redes a {
+	margin-bottom: 10px;
+	opacity: 1;
+	visibility: visible;
+}
+.fa-plus:hover {
+	transform: rotate(90deg)
+}
+/*
+.fa-plus {
+	height: 100px!important;
+	width: auto!important;
+}
+*/
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
