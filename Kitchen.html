@@ -41,7 +41,34 @@ Set-Cookie: flavor=choco; SameSite=None; Secure
 
 <body>
 
+	<!-- Load Facebook SDK for JavaScript -->
+<!--
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v8.0'
+          });
+        };
 
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+-->
+
+<!--
+       Your Chat Plugin code 
+      <div class="fb-customerchat"
+        attribution="setup_tool"
+        page_id="108598317616614"
+  theme_color="#EC1D26">
+      </div>
+-->
 
 	<!-- ======= Header/Navbar ======= -->
 	<nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top bg-dark">
@@ -531,34 +558,8 @@ Set-Cookie: flavor=choco; SameSite=None; Secure
 <div class="container_button">
 	<input type="checkbox" id="btn-mas">
 	<div class="redes">
-<!--	                messenger Button-->
-	<a href="https://www.messenger.com/t/modernwondersflorida" class="" target="_blank" >
-		<!-- Load Facebook SDK for JavaScript -->
-      <div id="fb-root"></div>
-      <script>
-        window.fbAsyncInit = function() {
-          FB.init({
-            xfbml            : true,
-            version          : 'v8.0'
-          });
-        };
-
-        (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
-
-<!--       Your Chat Plugin code -->
-      <div class="fb-customerchat"
-        attribution="setup_tool"
-        page_id="108598317616614"
-  theme_color="#EC1D26">
-      </div>
-      </a>
-      <!--Whatsapp Button-->
+	                <!--Whatsapp Button-->
+	<a href="https://www.messenger.com/t/modernwondersflorida" class="fa fa-facebook fa-2x" target="_blank" ></a>
 	<a href="https://wa.me/+17863062297?text=Me%20gustaría%20pedir%20una%20cita%20" class="fa fa-whatsapp fa-2x" target="_blank"></a>
 	</div>
 	<div class="btn-mas">
