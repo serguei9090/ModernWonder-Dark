@@ -24,7 +24,7 @@ $(document).ready(function(){
   });
 });
 
-//My button menu
+//My button menu animation
 $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('.container_button').fadeIn('slow');
@@ -41,6 +41,11 @@ $(window).scroll(function() {
 //
 //  var nav = $('nav');
 //  var navHeight = nav.outerHeight();
+
+//facebook messenger strat
+
+
+
 //My modal config end
 /**
 * Template Name: EstateAgency - v2.1.0
