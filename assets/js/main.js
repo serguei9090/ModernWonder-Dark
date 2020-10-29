@@ -24,6 +24,19 @@ $(document).ready(function(){
   });
 });
 
+//Modal-3
+$(document).ready(function(){
+  $("#myBtn3_m_1").click(function(){
+    $("#myModal_3").modal();
+  });
+	  $("#myBtn3_m_2").click(function(){
+    $("#myModal_3").modal();
+  });
+	  $("#myBtn3_m_3").click(function(){
+    $("#myModal_3").modal();
+  });
+});
+
 //My button menu animation
 $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
