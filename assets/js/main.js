@@ -2,6 +2,37 @@
  * Carousel random put info
  */
 $(document).ready(function() {
+    var itemSlider = $('#owl-carousel');
+    itemSlider.owlCarousel(
+    {
+      items:3,
+      nav: true,
+      navText: [
+        '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+        '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+    ],
+      autoplay:3000,
+      autoplayHoverPause:true,
+      loop:true,
+      smartSpeed:1200,
+      dots:true,
+
+      margin:5,
+      responsive:
+      {
+        0:{items:1,nav:false},
+        450:{nav:false},
+        768:{items:2},
+        992:{items:3}
+      }
+    });
+  });
+
+
+/**
+ * Carousel random put info
+ */
+$(document).ready(function() {
   //	declare variables
   var div_item_n = []
   var img_path = []
@@ -23,7 +54,7 @@ $(document).ready(function() {
       })
       //	carousel insert data
       //	getting carousel list
-  var container_carosuels = document.querySelector('.carousel-inner');
+  var container_carosuels = document.querySelector('.owl-carousel');
   //	making array of items for buttom target and Img source
   var matches_img_carousels = container_carosuels.querySelectorAll('button.carousel_modal > img');
   var matches_d_target_carousels = container_carosuels.querySelectorAll('button.carousel_modal');
