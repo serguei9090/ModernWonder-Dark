@@ -16,7 +16,6 @@ $(document).ready(function() {
       loop:true,
       smartSpeed:1200,
       dots:true,
-
       margin:5,
       responsive:
       {
