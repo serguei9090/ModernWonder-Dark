@@ -71,7 +71,7 @@ $(document).ready(function() {
   // scroll down
   $("body").animate({
       scrollTop: $(document).height()
-  }, 9000)
+  }, 9000, 'easeInOutExpo')
 });
 
 $(function() {
@@ -94,7 +94,7 @@ $(function() {
 
   flexiblePagination.getController().onPageClick = function(pageNum, e) {
       console.log('You Clicked Page: ' + pageNum)
-      $('html, body').animate({ scrollTop: 200 }, 'smooth');
+      $('html, body').animate({ scrollTop: 1100 }, 'smooth');
   };
 
 

@@ -8,11 +8,12 @@
 # Pagination and Carousel
 --------------------------------------------------------------*/
 
-.catalog_sect{
+.catalog_sect {
     padding-top: 2em;
 }
+
 .result {
-    display: inline-flex!important;
+    display: inline-flex !important;
 }
 
 .button {
@@ -29,7 +30,8 @@
     height: 20em;
     width: 100%;
 }
-.title_cat{
+
+.title_cat {
     margin-bottom: 5px;
     text-align: center;
 }
@@ -41,6 +43,7 @@
     color: #f00d19;
     text-decoration: none;
 }
+
 /* .owl-dots{
     z-index:2;
     position:absolute;
@@ -90,7 +93,7 @@
 @media (max-width: 768px) {
     .image-brand {
         height: 3.5rem;
-        padding-left: 4rem!important;
+        padding-left: 4rem !important;
     }
 }
 
@@ -180,13 +183,13 @@
 
 .fb_dialog_content>iframe {
     margin: 0px 0px !important;
-    right: 8px!important;
-    bottom: 70px!important;
+    right: 8px !important;
+    bottom: 70px !important;
 }
 
 .callbell-container>.callbell-container_logo {
-    right: 8px!important;
-    bottom: 70px!important;
+    right: 8px !important;
+    bottom: 70px !important;
 }
 
 
@@ -221,6 +224,7 @@
     position: fixed;
     bottom: 60px;
     right: 10px;
+    z-index: 11
 }
 
 .redes a,
@@ -259,6 +263,9 @@
     transform: rotate(90deg)
 }
 
+.fa-plus:checked {
+    transform: rotate(0deg)
+}
 
 /*
 .fa-plus {
@@ -844,6 +851,7 @@ a:hover {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
@@ -853,6 +861,7 @@ a:hover {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
@@ -944,6 +953,7 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+
     .navbar-default.navbar-trans .nav-item,
     .navbar-default.navbar-reduce .nav-item {
         margin-left: 15px;
@@ -1280,8 +1290,8 @@ a:hover {
     /* position: absolute; */
     bottom: 70px;
     /* right: 50px; */
-    text-align:center;
-    width:100%;
+    text-align: center;
+    width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -1483,6 +1493,7 @@ a:hover {
 --------------------------------------------------------------*/
 
 @media (max-width: 767px) {
+
     .card-box-a,
     .card-box-b,
     .card-box-c,
@@ -1492,6 +1503,7 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+
     .grid .card-box-a,
     .grid .card-box-b,
     .grid .card-box-c,
@@ -1517,6 +1529,7 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+
     .card-box-a:hover .img-a,
     .card-box-a:hover .img-b,
     .card-box-b:hover .img-a,
@@ -1526,6 +1539,7 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+
     .card-box-a .price-a,
     .card-box-b .price-a {
         font-size: .9rem;
@@ -1533,6 +1547,7 @@ a:hover {
 }
 
 @media (min-width: 992px) {
+
     .card-box-a .price-a,
     .card-box-b .price-a {
         font-size: 1rem;
@@ -1596,6 +1611,7 @@ a:hover {
     .card-box-a .card-overlay-a-content {
         bottom: 65px;
     }
+
     .card-box-a .card-body-a {
         padding-bottom: 1rem;
     }
@@ -2466,6 +2482,7 @@ a:hover {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
@@ -2475,6 +2492,7 @@ a:hover {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
