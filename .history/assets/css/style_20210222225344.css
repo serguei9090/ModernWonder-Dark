@@ -92,8 +92,7 @@
 
 @media (max-width: 768px) {
     .image-brand {
-        height: 3rem;
-        /* padding-left: 4rem !important; */
+        height: 3.5rem;
     }
 }
 
