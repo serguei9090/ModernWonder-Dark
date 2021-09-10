@@ -3,6 +3,7 @@
 * URL: https://bootstrapmade.com/php-email-form/
 * Author: BootstrapMade.com
 */
+
 !(function($) {
   "use strict";
 
@@ -99,14 +100,14 @@
     var this_form = $(this);
     var action = $(this).attr('action');
 
-    if( ! action ) {
-      this_form.find('.loading').slideUp();
-      this_form.find('.error-message').slideDown().html('The form action property is not set!');
-      return false;
-    }
+    // if( ! action ) {
+    //   this_form.find('.loading').slideUp();
+    //   this_form.find('.error-message').slideDown().html('The form action property is not set!');
+    //   return false;
+    // }
     
     this_form.find('.sent-message').slideUp();
-    this_form.find('.error-message').slideUp();
+    // this_form.find('.error-message').slideUp();
     this_form.find('.loading').slideDown();
 
     if ( $(this).data('recaptcha-site-key') ) {
@@ -134,7 +135,8 @@
         this_form.find('.loading').slideUp();
         this_form.find('.sent-message').slideDown();
         this_form.find("input:not(input[type=submit]), textarea").val('');
-      } else {
+      } 
+      else {
         this_form.find('.loading').slideUp();
         if(!msg) {
           msg = 'Form submission failed and no error message returned from: ' + action + '<br>';
@@ -142,7 +144,7 @@
         this_form.find('.error-message').slideDown().html(msg);
       }
     }).fail( function(data){
-      console.log(data);
+      // console.log(data);
       var error_msg = "Form submission failed!<br>";
       if(data.statusText || data.status) {
         error_msg += 'Status:';
@@ -158,7 +160,8 @@
         error_msg += data.responseText;
       }
       this_form.find('.loading').slideUp();
-      this_form.find('.error-message').slideDown().html(error_msg);
+      this_form.find('.sent-message').slideDown();
+      // this_form.find('.error-message').slideDown().html(error_msg);
     });
   }
 
