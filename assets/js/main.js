@@ -1,8 +1,8 @@
 
-
-
-
-
+//AOS INIT
+AOS.init({
+  easing: 'ease-in-out-sine'
+});
 
 //My modal config
 //Modal-1
